@@ -17,7 +17,7 @@ export default function Header(){
                     <span></span>
                     <span></span>
                 </div>
-                <nav className={`menu ${setMenuAtivo ? 'active': ''}`}>
+                <nav className={`menu ${menuAtivo ? 'active': ''}`}>
                     <a href="#hero" onClick={toggleMenu}>Home</a>
                     <a href="#cardapio" onClick={toggleMenu}>Cardápio</a>
                     <a href="#sobre" onClick={toggleMenu}>Sobre</a>
