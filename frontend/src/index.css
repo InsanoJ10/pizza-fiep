@@ -131,7 +131,7 @@ body{
 }
 
 .hero-txt button:hover{
-    background: #87331a;
+    background: #00544D;
 }
 
 .diferenciais{
@@ -154,5 +154,30 @@ body{
 
 .card{
     background-color: #00544D;
-    
+    padding: 30px 20px;
+    margin: 0 20px;
+    border-radius: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    box-shadow: 8px 9px #1c1c1c;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 1.3;
 }
