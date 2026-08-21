@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Diferenciais from "./components/Diferenciais";
 import Cardapio from "./components/Cardapio";
 import Sobre from "./components/Sobre";
+import Contato from "./components/Contato";
 function App(){
   return(
     <>
@@ -11,6 +12,7 @@ function App(){
       <Diferenciais/>
       <Cardapio/>
       <Sobre/>
+      <Contato/>
     </>
   )
 }
